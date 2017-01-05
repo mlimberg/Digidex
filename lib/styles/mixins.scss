@@ -1,5 +1,7 @@
 @mixin input-styles {
   height: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 @mixin button-styles {
