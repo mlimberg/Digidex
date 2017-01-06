@@ -1,3 +1,13 @@
 .button {
-  @include button-styles
+  @include button-styles();
+}
+
+#new-contact-btn, #contact-list-btn {
+  display: flex;
+  width: 60px;
+  margin: 0 10px;
+}
+
+#save-to-firebase-btn {
+  margin: 10px 20px;
 }
