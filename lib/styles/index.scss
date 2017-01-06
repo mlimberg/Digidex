@@ -8,3 +8,8 @@
 @import 'inputs';
 @import 'contactForm';
 @import 'contactList';
+
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
