@@ -1,9 +1,17 @@
 @mixin input-styles {
-  height: 40px;
+  height: 20px;
   display: flex;
   flex-direction: column;
+  outline: none;
 }
 
 @mixin button-styles {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   height: 20px;
+  background-color: $tan-color;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
 }
