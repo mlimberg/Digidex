@@ -1,15 +1,16 @@
 .header {
   width : 100%;
-  background-color: $blue-color;
+  background-color: $green-color;
 }
 
 #main-header {
   margin: auto;
-    color: #FFF;
-    font-size: 24px;
-    display: block;
-    text-align: center;
-    padding: 10px;
+  color: $yellow-color;
+  font-size: 48px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
 }
 
 #header-input {
@@ -19,9 +20,4 @@
   align-content: center;
   padding: 20px 5px;
   width: 100%;
-}
-
-#new-contact-btn {
-  display: flex;
-  width: 60px;
 }
