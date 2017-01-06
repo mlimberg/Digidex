@@ -1,8 +1,10 @@
-.contact-form {
+#contact-form {
   display: flex;
   flex-direction: column;
+  margin-left: 5%;
 }
 
 .label {
   display: inline;
+  font-family: $font3;
 }
