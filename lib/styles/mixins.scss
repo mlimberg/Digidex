@@ -1,17 +1,23 @@
 @mixin input-styles {
   height: 20px;
-  display: flex;
-  flex-direction: column;
   outline: none;
+  display: flex;
+  margin: 0px 5px;
 }
 
 @mixin button-styles {
-  display: flex;
   justify-content: center;
-  align-content: center;
-  height: 20px;
-  background-color: $tan-color;
+  vertical-align: middle;
+  height: 25px;
+  background-color: #FFDDA1;
   border-radius: 5px;
-  text-align: center;
+  border: none;
   text-decoration: none;
+  box-shadow: 1.5px 1.5px 1.5px 0px #000;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }

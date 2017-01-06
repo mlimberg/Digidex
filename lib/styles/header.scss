@@ -5,16 +5,19 @@
 
 #main-header {
   margin: auto;
-  color: #FFF;
-  font-size: 24px;
-  display: block;
-  text-align: center;
-  padding: 20px;
+    color: #FFF;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 
 #header-input {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 5px;
   width: 100%;
 }
 

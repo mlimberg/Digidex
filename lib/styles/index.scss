@@ -6,7 +6,4 @@
 @import 'buttons';
 @import 'header';
 @import 'inputs';
-
-.contact-form {
-  @include input-styles;
-}
+@import 'contactForm';
