@@ -4,7 +4,6 @@
 @import 'mixins';
 @import 'mediaQueries';
 @import 'buttons';
-
-.contact-form {
-  @include input-styles;
-}
+@import 'header';
+@import 'inputs';
+@import 'contactForm';
