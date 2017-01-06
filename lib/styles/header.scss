@@ -6,11 +6,12 @@
 #main-header {
   margin: auto;
   color: $yellow-color;
-  font-size: 48px;
+  font-size: 75px;
   display: block;
   text-align: center;
   padding: 10px;
   text-decoration: none;
+  font-family: $font4;
 }
 
 #header-input {
@@ -20,4 +21,15 @@
   align-content: center;
   padding: 20px 5px;
   width: 100%;
+}
+
+.input-field {
+  @include input-styles;
+  border-bottom: 1px solid #e9e9e9;
+  width: 70%;
+  margin: 5px;
+}
+
+#filter-contact-input {
+  width: 300px;
 }

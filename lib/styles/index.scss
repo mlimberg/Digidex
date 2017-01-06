@@ -1,6 +1,6 @@
 @import 'reset';
-// @import 'fonts';
 @import 'variables';
+@import 'fonts';
 @import 'mixins';
 @import 'mediaQueries';
 @import 'buttons';
@@ -8,3 +8,9 @@
 @import 'inputs';
 @import 'contactForm';
 @import 'contactList';
+@import 'contactProfile';
+
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
