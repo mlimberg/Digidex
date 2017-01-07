@@ -1,3 +1,15 @@
 #contact-profile-container {
   position: relative;
 }
+
+#contact-profile {
+  margin: 20px 5px;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  font-family: $font3;
+  font-weight: 100;
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
