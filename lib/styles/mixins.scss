@@ -25,4 +25,8 @@
     background-color: $orange-color;
     cursor: pointer;
   }
+  &:disabled {
+    background-color: $button-disabled-color;
+    cursor: default
+  }
 }
