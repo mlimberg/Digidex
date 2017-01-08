@@ -10,3 +10,17 @@
     color: $orange-color;
   }
 }
+
+#sign-out-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Coda", cursive;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px;
+}
+
+#signOut-btn {
+  margin: 20px;
+}
