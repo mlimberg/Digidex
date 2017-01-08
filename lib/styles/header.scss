@@ -1,4 +1,4 @@
-.header {
+#header {
   width : 100%;
   background-color: $green-color;
 }
@@ -32,4 +32,15 @@
 
 #filter-contact-input {
   width: 300px;
+}
+
+#signIn-btn {
+    margin: 30px auto;
+    justify-content: center;
+    display: flex;
+}
+
+#signOut-btn {
+  margin: 20px;
+  float: right;
 }
