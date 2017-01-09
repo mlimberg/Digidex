@@ -5,13 +5,11 @@ import { expect } from 'chai'
 
 import Main from '../lib/components/Main.js';
 
-
-describe('<MyComponent />', () => {
+describe('<Main />', () => {
 
   it('renders a <Main /> component', () => {
-    const wrapper = shallow(<Main />);
-    expect(wrapper.find(Main)).to.have.length(1);
+    const wrapper = shallow(<Main/>);
+    expect(wrapper.find('SignInPage')).to.have.length(1);
   });
-
 
 });
