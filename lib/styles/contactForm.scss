@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-left: 5%;
   position: relative;
+  padding: 20px 10px;
 }
 
 .label {
@@ -24,4 +25,8 @@
   margin: 10px 20px;
   width: 80px;
   height: 25px;
+}
+
+.input-notes {
+  height: 60px;
 }
