@@ -4,6 +4,8 @@
   display: flex;
   margin: 0px 10px;
   border: none;
+  font-size: 14px;
+  color: $orange-color;
 }
 
 @mixin button-styles {
