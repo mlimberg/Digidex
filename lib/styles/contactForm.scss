@@ -22,11 +22,15 @@
 }
 
 #save-to-firebase-btn, #save-form-link {
-  margin: 10px 20px;
+  margin: 10px 0px;
   width: 80px;
   height: 25px;
 }
 
 .input-notes {
   height: 60px;
+}
+
+input[type='checkbox'] {
+  margin: 10px;
 }
