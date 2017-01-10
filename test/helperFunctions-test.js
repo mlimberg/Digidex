@@ -7,9 +7,9 @@ import combineArrays from '../lib/components/Helpers/combineArrays'
 describe('combineArrays()', () => {
 
   it('should return a single array', () => {
-    let array1 = [1, 2, 3, 4]
-    let array2 = [3, 4, 5, 6]
-    expect(combineArrays(array1, array2)).to.have.length(6)
+    let array1 = [{ firstName: 'Wayne', lastName: 'Gretzky', firebaseId: 123 }, { firstName: 'Tim', lastName: 'Taylor', firebaseId: 938 }]
+    let array2 = [{ firstName: 'Tina', lastName: 'Turner', firebaseId: 763 }, { firstName: 'Wayne', lastName: 'Gretzky', firebaseId: 123 }]
+    expect(combineArrays(array1, array2)).to.have.length(3)
   })
 
 
