@@ -1,5 +1,20 @@
-@media (max-width: 450px) {
-  body {
-    background-color: blue;
+
+@media(max-width: 450px) {
+
+  #main-header {
+    font-size: 60px;
   }
+
+  #header-input {
+    flex-wrap: wrap;
+  }
+
+  #new-contact-btn, #fliter-btn  {
+    width: auto;
+  }
+
+  #all-contacts {
+    padding-left: 20px;
+  }
+
 }
