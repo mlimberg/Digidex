@@ -1,0 +1,13 @@
+@media(max-width: 450px) {
+  #main-header {
+    font-size: 60px;
+  }
+
+  #header-input {
+    flex-direction: column;
+  }
+
+  #new-contact-btn, #contact-list-btn  {
+    flex-direction: row;
+  }
+}
