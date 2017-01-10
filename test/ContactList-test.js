@@ -46,7 +46,7 @@ describe('<ContactProfile />', () => {
     expect(wrapper.find(ContactProfile)).to.have.length(1);
   });
 
-  it('mounts with a followUp state of its contact propert', () => {
+  it('mounts with a followUp state of its contact property', () => {
     const wrapper = shallow(<ContactProfile contact={{followUp: true }}/>);
     expect(wrapper.state('followUp')).to.equal(true)
   })
