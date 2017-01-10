@@ -8,11 +8,13 @@
   font-family: $font3;
   font-weight: 100;
   font-size: 20px;
-}
-
-.name {
-  display: flex;
-  flex-direction: row;
+  .name {
+    display: flex;
+    flex-direction: row;
+  }
+  // h6 {
+  //   flex-direction: column;
+  // }
 }
 
 .contact-profile-label {
