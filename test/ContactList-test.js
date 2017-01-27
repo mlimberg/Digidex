@@ -20,6 +20,7 @@ describe('<ContactList />', () => {
 
   it('renders a <ContactProfile/> component if contactProfile state is not null', () => {
     const wrapper = shallow(<ContactList contacts={[]} />);
+    expect(wrapper.find('ContactProfile')).to.have.length(0);
     wrapper.setState({ contactProfile: { name: 'test' }})
     expect(wrapper.find('ContactProfile')).to.have.length(1);
   });
@@ -77,12 +78,12 @@ describe('<ContactProfile />', () => {
 
   //test works up to point of calling to firebase, spy not working as intended
 
-  // it('contains a checkbox that toggles state of followUp', () => {
-  //   sinon.spy(ContactProfile.prototype, 'handleChange')
-  //   const handleChange = sinon.spy()
-  //   const wrapper = shallow(<ContactProfile handleChange={handleChange} user={{user: 'Ted', uid: 123}} contact={{ followUp: false }} />);
-  //   wrapper.find('#checkbox-contact-profile').simulate('change')
-  //    expect(ContactProfile.prototype.handleChange.calledOnce).to.equal(true)
-  // })
+  it('contains a checkbox that toggles state of followUp', () => {
+    sinon.spy(ContactProfile.prototype, 'handleChange')
+    const handleChange = sinon.spy()
+    const wrapper = shallow(<ContactProfile handleChange={handleChange} user={{user: 'Ted', uid: 123}} contact={{ followUp: false }} />);
+    wrapper.find('#checkbox-contact-profile').simulate('change')
+     expect(ContactProfile.prototype.handleChange.calledOnce).to.equal(true)
+  })
 
 });
